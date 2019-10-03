@@ -10,13 +10,14 @@ body {
 .container{
   max-width:800px;
   margin: auto;
+  padding: 20px;
   background: #22356b;
   overflow: auto;
 }
 
 .add-newtodo{
   background: #fff9d4;
-  margin: 20px;
+  margin-bottom: 20px;
 }
 
 .add-newtodo-form{
