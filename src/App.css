@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: sans-serif;
 }
  
 body {
@@ -7,18 +8,49 @@ body {
 }
 
 .container{
-  padding: 0 1rem;
   max-width:800px;
   margin: auto;
+  background: #22356b;
+  overflow: auto;
 }
 
-.btn{
+.add-newtodo{
+  background: #fff9d4;
+  margin: 20px;
+}
+
+.add-newtodo-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.add-newtodo-form-input{
+  border: 0;
+  border-bottom: 2px solid #22356b;
+  font-size: 30px;
+  line-height: 32px;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  font-family: serif;
+  font-style: italic;
+  background: transparent;
+}
+
+.add-newtodo-form-btn{
   display: inline-block;
   border: none;
-  background: #000;
+  background: #22356B;
   color: #fff;
   padding: 7px 20px;
   cursor: pointer;
+  text-align: center;
+  font-family: serif;
+  font-style: italic;
+  font-size: 24px;
+  max-width: 150px;
+  margin: 0px auto 30px;
+  border-radius: 50px;
 }
 
 .btn:hover{
