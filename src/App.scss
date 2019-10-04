@@ -1,0 +1,61 @@
+@import './variables.scss';
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+ 
+body {
+    margin: 0; 
+}
+
+.container{
+  max-width:800px;
+  margin: auto;
+  padding: 20px;
+  background: $primary-blue-color;
+  overflow: auto;
+}
+
+.add-newtodo{
+  background: #fff9d4;
+  margin-bottom: 20px;
+
+  &-form{
+    display: flex;
+    flex-direction: column;
+
+    &-input{
+      border: 0;
+      border-bottom: 2px dashed $primary-blue-color;
+      font-size: 30px;
+      line-height: 32px;
+      padding: 10px;
+      margin: 20px;
+      text-align: center;
+      font-family: serif;
+      font-style: italic;
+      background: transparent;
+    }
+
+    &-btn{
+      display: inline-block;
+      border: none;
+      background: $primary-blue-color;
+      color: #fff;
+      padding: 7px 20px;
+      cursor: pointer;
+      text-align: center;
+      font-family: serif;
+      font-style: italic;
+      font-size: 24px;
+      max-width: 150px;
+      margin: 0px auto 30px;
+      border-radius: 50px;
+    }
+  }
+}
+
+.btn:hover{
+  background: #090054;
+}
