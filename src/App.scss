@@ -9,16 +9,35 @@ body {
     margin: 0; 
 }
 
+.header-nav{
+  background: $primary-btn-color;
+  color: $primary-white-color;
+  margin: 5px 20px;
+  padding: 10px 50px;
+  display: inline-flex;
+}
+
+.header-nav:hover{
+  background: $primary-white-color;
+  color: $primary-blue-color;
+}  
+
 .container{
   max-width:800px;
-  margin: auto;
+  margin: 20px auto;
   padding: 20px;
   background: $primary-blue-color;
   overflow: auto;
 }
 
+.about-inner-container{
+  background: $primary-background-color;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
 .add-newtodo{
-  background: #fff9d4;
+  background: $primary-background-color;
   margin-bottom: 20px;
 
   &-form{
@@ -41,8 +60,9 @@ body {
     &-btn{
       display: inline-block;
       border: none;
-      background: $primary-blue-color;
-      color: #fff;
+      background: $primary-btn-color;
+      border: 1px solid $primary-btn-color;
+      color: $primary-white-color;
       padding: 7px 20px;
       cursor: pointer;
       text-align: center;
@@ -53,9 +73,10 @@ body {
       margin: 0px auto 30px;
       border-radius: 50px;
     }
+    &-btn:hover{
+      background:$primary-white-color;
+      color: $primary-blue-color;
+    }  
   }
 }
 
-.btn:hover{
-  background: #090054;
-}
