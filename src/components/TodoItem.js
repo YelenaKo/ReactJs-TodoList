@@ -8,7 +8,8 @@ export class TodoItem extends React.Component {
             padding: '10px',
             borderBottom: '1px  #ccc dotted',
             textDecoration: this.props.todo.completed ? 'line-through' : 'none',
-            fontFamily: 'serif'
+            fontFamily: 'serif',
+            fontStyle: 'italic'
             }
     }
 
@@ -17,12 +18,14 @@ export class TodoItem extends React.Component {
         return (
             <div style={this.getStyle()}>
                 <p>
-                    <i>
-                        <input type = "checkbox" onChange = {this.props.markComplete.bind( this, id )} /> 
-                        {' '}    
-                        { title }
-                        <button onClick={this.props.delTodo.bind(this, id)} style={btnStyle}>x</button>
-                    </i>    
+                    <input 
+                        type = "checkbox" 
+                        onChange = {this.props.markComplete.bind( this, id )} 
+                        checked = {this.props.todo.completed ? true: false }
+                        style = {{margin:"0 10px"}}
+                    /> 
+                    { title }
+                    <button onClick={this.props.delTodo.bind(this, id)} style={btnStyle}>x</button>
                 </p>
             </div>
         )
