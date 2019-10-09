@@ -9,6 +9,10 @@ body {
     margin: 0; 
 }
 
+input:focus {
+  outline: none;
+}
+
 .header-nav{
   background: $primary-btn-color;
   color: $primary-white-color;
@@ -55,6 +59,12 @@ body {
       font-family: serif;
       font-style: italic;
       background: transparent;
+
+      &:focus {
+        outline: dashed;
+        border-color: transparent;
+        background: #e8f0fe;
+      }
     }
 
     &-btn{
