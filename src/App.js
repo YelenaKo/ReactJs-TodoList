@@ -41,11 +41,10 @@ class App extends Component {
 
   render(){
     return(
-      <Router>
+      <Router basename={'/ReactJs-TodoList'}>
         <div className = "App">
           <div className = 'container'>
             <Header />
-            <Router basename={'/ReactJs-TodoList'}>
               <Route exact path={process.env.PUBLIC_URL + '/'} render={props => (
                 <React.Fragment>
                   <AddTodo addTodo={this.addTodo} />
@@ -53,7 +52,6 @@ class App extends Component {
                 </React.Fragment>
               )} />
               <Route path= {process.env.PUBLIC_URL + '/about'} component={ About } />
-            </Router>
           </div>
         </div>
       </Router>
