@@ -41,7 +41,7 @@ class App extends Component {
 
   render(){
     return(
-      <Router basename={'/ReactJs-TodoList'}>
+      <Router>
         <div className = "App">
           <div className = 'container'>
             <Header />
