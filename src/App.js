@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {BrowserRouter,  as Router, Route} from 'react-router-dom';
+import {HashRouter,  as Router, Route} from 'react-router-dom';
 import './App.scss';
 import Header from './components/layout/Header';
 import Todos from './components/Todos';
@@ -41,7 +41,7 @@ class App extends Component {
 
   render(){
     return(
-      <Router history={history} onUpdate={logPageView}>
+      <HashRouter>
         <div className = "App">
           <div className = 'container'>
             <Header />
@@ -54,7 +54,7 @@ class App extends Component {
               <Route path= {process.env.PUBLIC_URL + '/about'} component={ About } />
           </div>
         </div>
-      </Router>
+      </HashRouter>
     );
   }
 }
