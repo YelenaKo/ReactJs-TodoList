@@ -41,7 +41,7 @@ class App extends Component {
 
   render(){
     return(
-      <Router>
+      <Router history={history} onUpdate={logPageView}>
         <div className = "App">
           <div className = 'container'>
             <Header />
