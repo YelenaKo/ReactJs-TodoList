@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {HashRouter,  as Router, Route} from 'react-router-dom';
+import {BrowserRouter,  as Router, Route} from 'react-router-dom';
 import './App.scss';
 import Header from './components/layout/Header';
 import Todos from './components/Todos';
