@@ -1,6 +1,6 @@
 # ReactJs TodoList
 
-Online demo: [ReactJs TodoList](https://yelenako.github.io/ReactJs-TodoList/ReactJs-TodoList/)
+Online demo: [ReactJs TodoList](https://yelenako.github.io/ReactJs-TodoList/)
 
 ![ alt todo](https://user-images.githubusercontent.com/37521732/66449093-70db1a00-ea19-11e9-9012-bc4a26f951f5.gif)
 
