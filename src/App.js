@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {HashRouter,  as Router, Route} from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom'
 import './App.scss';
 import Header from './components/layout/Header';
 import Todos from './components/Todos';
@@ -45,6 +45,7 @@ class App extends Component {
         <div className = "App">
           <div className = 'container'>
             <Header />
+             <Switch>
               <Route exact path={process.env.PUBLIC_URL + '/'} render={props => (
                 <React.Fragment>
                   <AddTodo addTodo={this.addTodo} />
@@ -52,6 +53,7 @@ class App extends Component {
                 </React.Fragment>
               )} />
               <Route path= {process.env.PUBLIC_URL + '/about'} component={ About } />
+             <Switch>
           </div>
         </div>
       </HashRouter>
