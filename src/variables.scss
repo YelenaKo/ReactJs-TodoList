@@ -1,11 +1,25 @@
-$primary-background-color: #fff9d4;
-$primary-blue-color: #22356b;
-$primary-btn-color: #121c3a;
-$primary-red-color: #ff0000;
-$primary-white-color: #ffffff;
+$mobile: 768px;
+
+$colors: (
+    "primary-background": #fff9d4,
+    "primary-blue": #22356b,
+    "btn-blue": #121c3a,
+    "primary-red": #ff0000,
+    "primary-white": #ffffff,
+    "input-focuse": #e8f0fe,
+);
+
+@function color( $color-name ) {
+    @return map-get( $colors , $color-name );
+}
 
 $font-weights: (
     "regular": 300,
     "medium": 600,
     "bold": 900
-)
+);
+
+@function weight( $weight-name ) {
+    @return map-get( $font-weights , $weight-name );
+}
+

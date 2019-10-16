@@ -1,0 +1,18 @@
+@mixin mobile {
+    @media(max-width: $mobile){
+        @content;
+    }
+}
+@mixin primaryButton {
+    display: inline-flex;
+    justify-content: center;  
+    background: color(btn-blue);
+    border: 1px solid color(btn-blue);
+    color: color(primary-white);
+    cursor: pointer;
+    text-align: center;
+    &:hover{
+        background:color(primary-white);
+        color: color(primary-blue);
+    } 
+}

@@ -1,4 +1,5 @@
 @import './variables.scss';
+@import './mixin.scss';
 
 * {
     box-sizing: border-box;
@@ -7,10 +8,14 @@
  
 body {
     margin: 0; 
+
+    @include mobile{ 
+      background-color: color(primary-blue);
+    }
 }
 
 a{
-  font-weight: map-get( $font-weights, regular );
+  font-weight: weight(regular);
 }
 
 input:focus {
@@ -18,34 +23,32 @@ input:focus {
 }
 
 .header-nav{
-  background: $primary-btn-color;
-  color: $primary-white-color;
+  @include primaryButton;
+
   margin: 5px 20px;
   padding: 10px 50px;
-  display: inline-flex;
-}
 
-.header-nav:hover{
-  background: $primary-white-color;
-  color: $primary-blue-color;
-}  
+  @include mobile{ 
+    display: flex;
+  }
+}
 
 .container{
   max-width:800px;
   margin: 20px auto;
   padding: 20px;
-  background: $primary-blue-color;
+  background: color(primary-blue);
   overflow: auto;
 }
 
 .about-inner-container{
-  background: $primary-background-color;
+  background: color(primary-background);
   padding: 20px;
   margin-bottom: 20px;
 }
 
 .add-newtodo{
-  background: $primary-background-color;
+  background: color(primary-background);
   margin-bottom: 20px;
 
   &-form{
@@ -54,7 +57,7 @@ input:focus {
 
     &-input{
       border: 0;
-      border-bottom: 2px dashed $primary-blue-color;
+      border-bottom: 2px dashed color(primary-blue);
       font-size: 30px;
       line-height: 32px;
       padding: 10px;
@@ -67,19 +70,14 @@ input:focus {
       &:focus {
         outline: dashed;
         border-color: transparent;
-        background: #e8f0fe;
+        background: color(input-focuse);
       }
     }
 
     &-btn{
-      display: inline-block;
-      border: none;
-      background: $primary-btn-color;
-      border: 1px solid $primary-btn-color;
-      color: $primary-white-color;
+      @include primaryButton;
+
       padding: 7px 20px;
-      cursor: pointer;
-      text-align: center;
       font-family: serif;
       font-style: italic;
       font-size: 24px;
@@ -87,9 +85,5 @@ input:focus {
       margin: 0px auto 30px;
       border-radius: 50px;
     }
-    &-btn:hover{
-      background:$primary-white-color;
-      color: $primary-blue-color;
-    }  
   }
 }
