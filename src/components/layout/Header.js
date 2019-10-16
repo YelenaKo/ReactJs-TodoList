@@ -6,8 +6,8 @@ function Header(){
     return(
         <header style={headerStyle} >
             <h1>TodoList</h1>
-            <Link to= {process.env.PUBLIC_URL + '/'} style={linkStyle} className="header-nav" >Home</Link>
-            <Link to= {process.env.PUBLIC_URL + '/about'} style={linkStyle} className="header-nav">About</Link> 
+            <Link to= '/' style={linkStyle} className="header-nav" >Home</Link>
+            <Link to= '/about' style={linkStyle} className="header-nav">About</Link> 
 
         </header>
     )
