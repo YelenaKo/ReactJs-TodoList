@@ -6,7 +6,9 @@ Online demo: [ReactJs TodoList](https://yelenako.github.io/ReactJs-TodoList/)
 
 ---
 
-### My ReactJS Wiki
+### My ReactJS Wiki  
+:octocat: 
+
 
 * [Setting React Project](https://github.com/YelenaKo/ReactJs-TodoList/wiki/Setting-React-Project)
 * [Git & GitHub](https://github.com/YelenaKo/ReactJs-TodoList/wiki/Work-with-GitHub)
