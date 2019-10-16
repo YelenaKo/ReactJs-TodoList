@@ -7,12 +7,12 @@ Online demo: [ReactJs TodoList](https://yelenako.github.io/ReactJs-TodoList/)
 ---
 
 ### My ReactJS Wiki  
-:octocat: 
 
+:octocat:   [Setting React Project](https://github.com/YelenaKo/ReactJs-TodoList/wiki/Setting-React-Project)
 
-* [Setting React Project](https://github.com/YelenaKo/ReactJs-TodoList/wiki/Setting-React-Project)
-* [Git & GitHub](https://github.com/YelenaKo/ReactJs-TodoList/wiki/Work-with-GitHub)
-* [SASS](https://github.com/YelenaKo/ReactJs-TodoList/wiki/Work-with-SASS)
+:octocat:   [Git & GitHub](https://github.com/YelenaKo/ReactJs-TodoList/wiki/Work-with-GitHub)
+
+:octocat:   [SASS](https://github.com/YelenaKo/ReactJs-TodoList/wiki/Work-with-SASS)
 
 ---
 
