@@ -26,6 +26,13 @@ Online demo: [ReactJs TodoList](https://yelenako.github.io/ReactJs-TodoList/)
 ```
 :octocat:   [SASS](https://github.com/YelenaKo/ReactJs-TodoList/wiki/Work-with-SASS)
 
+```
+╔  CSS to SCSS: Install & rebuild 
+╠  SCSS variables
+╠  SCSS functions
+╠  map-get
+╚  @mixin
+```
 ---
 
 #### * [Resources](resources.md)
