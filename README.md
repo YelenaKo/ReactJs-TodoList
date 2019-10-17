@@ -12,6 +12,15 @@ Online demo: [ReactJs TodoList](https://yelenako.github.io/ReactJs-TodoList/)
 
 :octocat:   [Git & GitHub](https://github.com/YelenaKo/ReactJs-TodoList/wiki/Work-with-Git-&-GitHub)
 
+```
+╔  Configure user information for all local repositories
+╠  Set a new remote
+╠  Create new local repositories
+╠  Update the local repository from remote
+╠  Branching a repository
+╠  Commit and push
+╚  Refactor file names
+```
 :octocat:   [SASS](https://github.com/YelenaKo/ReactJs-TodoList/wiki/Work-with-SASS)
 
 ---
