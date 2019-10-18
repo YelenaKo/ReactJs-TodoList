@@ -11,7 +11,11 @@ Online demo: [ReactJs TodoList](https://yelenako.github.io/ReactJs-TodoList/)
 :octocat:   [Setting React Project](https://github.com/YelenaKo/ReactJs-TodoList/wiki/Setting-React-Project)
 
 ```
-⟦  Quick start creation React App
+╔  Quick start creation React App
+╠  Deploy to production
+╠  React Router DOM
+╚  Generate a unique ID with node.js
+
 ```
 :octocat:   [Git & GitHub](https://github.com/YelenaKo/ReactJs-TodoList/wiki/Work-with-Git-&-GitHub)
 
