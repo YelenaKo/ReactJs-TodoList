@@ -15,7 +15,6 @@ Online demo: [ReactJs TodoList](https://yelenako.github.io/ReactJs-TodoList/)
 ╠  Deploy to production
 ╠  React Router DOM
 ╚  Generate a unique ID with node.js
-
 ```
 :octocat:   [Git & GitHub](https://github.com/YelenaKo/ReactJs-TodoList/wiki/Work-with-Git-&-GitHub)
 
