@@ -30,9 +30,11 @@ Online demo: [ReactJs TodoList](https://yelenako.github.io/ReactJs-TodoList/)
 ╔  CSS to SCSS: Install & rebuild 
 ╠  SCSS variables
 ╠  At-Rules
-╚╦   @functions
- ╠══   map-get
- ╚═  @mixin and @include
+╚╦  @functions
+ ╠═   map-get
+ ╠  @mixin and @include
+ ╠  @content
+ ╚  @extend
 ```
 ---
 
